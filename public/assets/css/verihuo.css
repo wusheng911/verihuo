@@ -1,0 +1,433 @@
+
+.header-frontend-img{width:150px;height 55px;}
+.main-footer{ 
+	background-color:#eee;
+	position:absolute;
+	width:100%;
+	bottom:0px;
+}
+.footer-img{width:150px;height 55px;margin-top:5px; display:block; margin:auto;}
+.footer-container{height:120px;}
+.footer-p{margin-top:15px; text-align:center;}
+
+
+/* home 样式 start */
+.home-kv-text1{
+	position:absolute;
+	z-index:99;
+	left:100px;
+	font-size:30px;
+	color:#fff;
+	top:45%;
+	display:inline-block;
+	text-align:center;
+}
+.home-kv-text2{
+	position:absolute;
+	z-index:99;
+	left:100px;
+	font-size:20px;
+	color:#fff;
+	top:52%;
+}
+.home-bg-img{
+	width:100%;
+	height:600px;
+	position:absolute;
+}
+
+.home-nav-img{
+	display:inline-block;
+	font-size:0px;
+	width:120px;
+	height:30px;
+	position:absolute;
+	top:7px;
+	left:60px;
+}
+.home-nav-div{
+	display:inline-block;
+	margin-top:12px;
+}
+.home-nav-a{
+	margin-left:25px;
+	margin-right:25px;
+}
+.home-nav-user-info{
+	font-size:14px;	
+	position:absolute;
+	right:20px;
+	top:5px;
+}
+.home-nav-a:hover{
+	text-decoration:none;	
+	cursor: pointer;
+}
+.home-nav-login{
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+.home-nav-user-name{
+    display: block;
+    position: absolute;
+    right: 10px;
+	margin-top:7px;
+}
+
+.home-module{
+	height:600px;
+	/*background-image:url(/assets/img/home/bg1.jpg);*/
+}
+.home-module-container{
+	height:100%;
+	display:flex;
+	flex-direction:row;
+}
+.home-module-img{
+	height:100%;
+}
+.home-module-img .img{
+	height:100%;
+}
+.home-module-content{
+	color:#fff;
+	height:200px;	
+	margin-top:300px;
+}
+.home-module-title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom:10px;
+}
+.home-module-description{
+	font-size: 20px;
+	text-align: left;
+}
+.home-module-title-white{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom:10px;
+	color:#000;
+}
+.home-module-description-white{
+	font-size: 20px;
+	text-align: left;
+	color:#000;
+}
+.home-module-button-container{
+
+}
+.home-module-button{
+	width:200px;
+	height:45px;
+	font-size:25px;
+	background-color:#000;
+	margin:auto;
+	display:block;
+	border:none;
+	color:#ddd;
+}
+.home-module-button-white{
+	width:200px;
+	height:45px;
+	font-size:25px;
+	background-color:#fff;
+	margin:auto;
+	display:block;
+	border:none;
+	color:#555;
+}
+.home-kv-button{
+	width:200px;
+	height:45px;
+	font-size:25px;
+	background-color:#000;
+	display:block;
+	border:none;
+	color:#ddd;
+	float:right;
+}
+.home-kv-button-white{
+	width:200px;
+	height:45px;
+	font-size:25px;
+	background-color:#fff;
+	display:block;
+	border:none;
+	color:#555;
+}
+.home-kv-title{
+	font-size:25px;
+	padding-top: 15px;
+}
+.home-kv-title-right{
+	font-size:25px;
+	padding-top: 15px;
+	text-align:right;
+	color:#000;
+}
+.home-kv-description{
+	font-size:22px;
+}
+.home-item-hide{
+	text-align: center;
+}
+.home-item-hide-img{
+	max-width:200px;
+	max-height:200px;
+	width:200px;
+}
+.home-item-hide-title{
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top:0px;
+}
+.home-item-hide-description{
+	overflow: hidden;
+	max-height:150px;
+}
+/* home 样式 end */
+
+
+
+/* blog样式  start */
+.blog-kv-container{
+	display:block;
+}
+.blog-kv-img{
+	width:100%;
+}
+.blog-container{
+	
+}
+.blog-main-list-title{
+	font-size:25px;
+	color:#1d5893;
+	margin:20px 0px 10px 0px;
+
+}
+.blog-main-list{
+	margin:0px;
+	padding:0px;
+}
+.blog-main-item{
+	height:250px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.blog-item-img-container{
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+.blog-item-img{
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+.blog-item-info{
+	padding-left:30px;
+	height:100%;
+}
+.blog-item-title{
+	font-size: 18px;
+	line-height: 1.3;
+	color: #1d5893!important;
+	margin:0px;
+	cursor:pointer;
+}
+.blog-item-date{
+	color: #5e88b2;
+	font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.blog-item-description{
+	font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+	margin-top:15px;
+	color: #4e4e4e;
+}
+.blog-sub-list{
+	margin-top:40px;
+
+}
+.blog-sub-item{
+	display:flex;
+}
+.blog-sub-index{
+	margin-top:2px;
+	color: #1d5893;
+}
+.blog-sub-title{
+	font-size:15px;
+	color: #1d5893;
+	padding-left:15px;
+}
+.blog-paging{
+	display:flex;
+	margin:auto;
+	width:100%;
+}
+.blog-paging-ul{
+	margin:auto;
+}
+/* blog样式  end */
+
+/* presonal样式  start */
+.personal-title{
+	text-align:center;
+	font-size:35px;
+}
+.personal-info-panel{
+	height:396px;
+}
+.personal-info-shell{
+	height:330px;
+}
+.personal-edit-btn{
+	float:right;
+}
+.personal-edit-sure-btn{
+	width:100%;
+	margin-top:15px;
+}
+.school-list-item{
+	overflow:hidden;
+	word-break:keep-all;            
+	white-space:nowrap; 
+
+}
+.report-title{
+	font-size:25px;
+	text-align:center;
+}
+.report-user-info{
+	font-size:15px;
+}
+.report-user-name{
+	float:right;
+	margin-right:50px;
+}
+.report-user-professor{
+	float:right;
+}
+.report-left{
+
+}
+.report-left-top{
+	text-align:center;
+	color:#333;
+}
+.report-left-center{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.report-left-center-content{
+	width:70px;
+	height:70px;
+	background-color:#ccc;
+	margin:auto;
+}
+.report-left-bottom{
+	text-align:center;
+}
+.report-box{
+	margin:auto;
+	text-align:center;
+	padding-top:25px;
+}
+.report-right{
+
+}
+.report-right-top{
+	text-align:center;	
+}
+.report-right-center{
+	width:95%;
+	margin:auto;
+	margin-top:26px;
+	margin-bottom:10px;
+	font-size:0px;
+}
+.report-right-ceil{
+	width:13.9%;
+	display:inline-block;
+}
+.report-right-ceil-content{
+	width:70px;
+	height:70px;
+	background-color:#ccc;
+	margin:auto;
+	font-size:14px;
+}
+.report-right-ceil-text{
+	text-align:center;
+	font-size:15px;
+}
+.report-right-bottom{
+	text-align:center;
+}
+.report-acceptance-title{
+	text-align:left;
+}
+.report-acceptance{
+	margin-top:30px;
+}
+.report-like{
+	margin-top:20px;
+}
+.report-like-left{
+	margin-left:30px;
+}
+.report-like-right{
+	margin-left:30px;
+}
+.report-tips{
+
+}
+.report-tips-left{
+	background-color:#0f0;
+	width:70px;
+	height:50px;
+	text-align:center;
+	padding-top:14px;
+}
+.report-tips-right{
+	background-color:#cff;
+	height:50px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	font-size:20px;
+	padding-top:9px;
+	color:#333;
+	text-align:center;
+}
+.report-tips-left-content{
+	
+	margin-top:20px;
+}
+.report-tips-right-content{
+
+}
+.report-school-left-title{
+	text-align:left;
+	margin-bottom:20px;
+}
+.report-school-content{
+	display:block;
+	text-align:center;
+}
+.report-plan-title{
+	margin-bottom:20px;
+}
+.report-plan-content{
+
+}
+/* presonal样式  end */
+
+

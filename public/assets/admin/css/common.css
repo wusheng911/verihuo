@@ -1,0 +1,72 @@
+.skin-blue .sidebar-menu > li > .treeview-menu {
+  margin-left: 26px;
+}
+
+
+/* fix sleepingowl css style */
+.main-header {
+    position: fixed;
+    max-height: 100px;
+    z-index: 1030;
+    width: 100%;
+}
+
+.left-side, .main-sidebar {
+    position: fixed;
+}
+
+.content {
+    margin-top: 32px;
+    min-height: 10px;
+}
+/* fix sleepingowl css style end */
+
+
+/* fix bootstrap select style start */
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+/* end fix bootstrap select style start */
+
+
+
+/*# sourceMappingURL=main.css.map */
+.wrappers{min-height:100%;/*position:relative;*/overflow:hidden}
+
+/*product*/
+.required {
+    color: #D40707 !important;
+    font-weight: bold !important;
+    margin-left: 5px;
+}
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+.product_image ul { list-style-type: none; margin: 0; padding: 0; margin-right: 10px; }
+.product_image ul li { padding:0;float: left;background: none;border: none;width: 150px;margin-right: 10px; }
+.product_image ul li a img {width:150px;height:150px;}
+.p-img-remove { position: absolute;top:0px;right:0px;border-radius:30px;padding: 1px 5px;}
+table{
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed; // ***********add this
+word-wrap:break-word; // ***********and this
+}
+table tr a.del{
+    color: red;
+    font-size: 14px;
+}
+table tr a.edit{
+    color: blue;
+    font-size: 14px;
+}
+table tr td{
+    border-left: dashed 1px lightgray;
+    border-right: dashed 1px lightgray;
+}

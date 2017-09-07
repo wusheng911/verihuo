@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8CAA0C;EACtC,WAAW,EAAE,IAAI",
+"sources": ["../../../../resources/assets/admin/sass/main.scss"],
+"names": [],
+"file": "main.css"
+}

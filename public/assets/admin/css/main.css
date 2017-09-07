@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.skin-blue .sidebar-menu > li > .treeview-menu {
+  margin-left: 26px; }
+
+/* 页面内左侧菜单 */
+.oo-menu {
+  position: fixed;
+  margin-top: -15px;
+  padding: 0px;
+  height: 100%; }
+
+/* 页面内左侧菜单 end */
+table thead tr#filterrow th {
+  padding: 1px; }
+
+table thead tr#filterrow th input {
+  width: 100%; }
+
+.table-responsive {
+  overflow-x: visible;
+  min-height: .01%; }
+.navbar-static-top .title {
+  float: left;
+  padding: 15px;
+  color: #fff;
+}
+.navbar-static-top .admin-logout {
+  float: right;
+  padding: 10px;
+  color: #fff;
+}
+.navbar-static-top .admin-logout button:hover {
+  margin: 0 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.navbar-static-top .admin-logout button {
+  margin: 0 20px;
+  color: #fff;
+  background-color: #3c8dbc;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+  border-radius: 20px;
+}
+.backend-data-total {
+  margin: -20px 10px 10px 10px;
+  text-align: center;
+}
+.backend-data-total .row {
+  margin: 20px 0;
+}
+.backend-data-total .row div {
+  padding:20px 0;
+}
+.backend-data-total .row div.btn-primary {
+  border-right: 1px dashed #fff;
+}
+.backend-data-total .row span {
+  display: block;
+}
+#OrdersTotal {
+  border-right: 2px solid #ecf0f5;
+}
+#OrdersTotal,
+#ArticleViewTotal {
+  overflow-x: hidden;
+  padding: 0 0 30px 0;
+  background-color: #fff;
+}

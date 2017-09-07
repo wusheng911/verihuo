@@ -1,0 +1,30 @@
+{
+  "name": "chaohun",
+  "description": "",
+  "main": "",
+  "authors": [
+    "jiajun <zhujiajun2000@msn.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3",
+    "font-awesome": "^4.6.3",
+    "slick-carousel": "slick.js#^1.6.0",
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "^3.0.0",
+    "jquery-ui": "^1.11.4",
+    "nicescroll": "^3.6.8",
+    "jquery_lazyload": "jquery.lazyload#^1.9.7",
+    "jquery.transit": "^0.9.12"
+  }
+}

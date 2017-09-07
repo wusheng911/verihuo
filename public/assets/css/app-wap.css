@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*
+  Settings for the top bar and off-canvas menu
+*/
+/**
+  Global settings: background-color and font-color
+ */
+/*
+  fixed bottom bar
+*/
+/**
+  pagination for news more
+*/
+/**
+  for article navigator using block grid
+*/
+    .shares{width:100%;height:89.5%;position:absolute;left:0;top:38;z-index:9990;position:fixed;display:none;}
+    @media only screen and (min-device-width: 320px) and 
+    (max-device-width: 568px) {
+    .article-video{
+        width: 300px;
+        height: 225px;
+        text-align: center;
+        }
+    }
+    @media only screen and (min-device-width: 375px) and 
+    (max-device-width: 667px) {
+    .article-video{
+        width: 352px;
+        height: 264px;
+        text-align: center;
+        }
+    }
+    @media only screen and (min-device-width: 414px) and 
+    (max-device-width: 736px) {
+    .article-video{
+        width: 390px;
+        height: 293px;
+        text-align: center;
+        }
+    }
+    @media screen and (min-width: 736px){
+    .article-video{
+        width: 750px;
+        height: 562px;
+        text-align: center;
+        /*border: 2px solid red;*/
+        }
+    }
+
+
+
+/*# sourceMappingURL=app-wap.css.map */
