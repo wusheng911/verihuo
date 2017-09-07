@@ -1,0 +1,25 @@
+{
+    "name": "stone/aliyun_mns",
+    "type": "library",
+    "version": "1.0.4",
+    "description": "Laravel queue driver bases on Aliyun Message Service.",
+	"keywords": ["消息服务", "laravel"],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "rssidea",
+            "email": "rssidea@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Stone\\" : "src/Stone/"
+        },
+        "classmap": [
+            "libraries/AliMNS/Client.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
